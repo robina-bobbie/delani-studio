@@ -142,7 +142,7 @@
 }
 
 input[type="text"],
-[type="text"] {
+textarea[type="text"] {
   background: transparent;
   color: white;
 }
