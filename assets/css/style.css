@@ -80,3 +80,21 @@
   color: white;
   text-align: center;
 }
+
+/* --------------------------------------------------------------
+# What we do section
+--------------------------------------------------------------*/
+#wwd h3 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+#wwd div {
+  color: #111;
+  text-align: center;
+}
+
+#wwd img {
+  height: 80px;
+  width: 80px;
+}
