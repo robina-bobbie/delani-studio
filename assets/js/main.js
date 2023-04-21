@@ -11,6 +11,15 @@ window.addEventListener('load', () => {
 });
 
 $(document).ready(() => {
+  // hide all portfolio labels
+  $(".hover").css("opacity", "0");
+  $(".hover1").css("opacity", "0");
+  $(".hover2").css("opacity", "0");
+  $(".hover3").css("opacity", "0");
+  $(".hover4").css("opacity", "0");
+  $(".hover5").css("opacity", "0");
+  $(".hover6").css("opacity", "0");
+  $(".hover7").css("opacity", "0");
 
   // toggle design
   $("#designImage").click(() => {
@@ -130,6 +139,5 @@ $(document).ready(() => {
       $(".hover7").css("opacity", "0");
     }
   );
-
 
 });
