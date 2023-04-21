@@ -98,3 +98,25 @@
   height: 80px;
   width: 80px;
 }
+
+/* --------------------------------------------------------------
+# Portfolio section
+--------------------------------------------------------------*/
+#portfolio p {
+  font-weight: bolder;
+}
+
+#portfolio h3 {
+  font-weight: bolder;
+}
+
+#portfolio div {
+  color: #111;
+  text-align: center;
+}
+
+#portfolio img {
+  margin: 5px;
+  height: 300px;
+  width: 300px;
+}
