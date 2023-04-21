@@ -149,6 +149,11 @@ $(document).ready(() => {
     if (nameValue == "" || emailValue == "" || messageValue == "") {
       alert("Please enter all the information");
     } else {
+      // clear form
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+
       // alert
       alert(nameValue + ", we have received your message. Thank you for reaching out to us. We will get back to you within 2 business days.");
     }
