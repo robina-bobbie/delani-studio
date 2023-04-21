@@ -146,3 +146,13 @@ input[type="text"],
   background: transparent;
   color: white;
 }
+
+/* --------------------------------------------------------------
+# Social section
+--------------------------------------------------------------*/
+#social div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
